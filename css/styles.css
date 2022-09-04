@@ -1,4 +1,4 @@
-Day and weekly passes* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -107,7 +107,7 @@ Day and weekly passes* {
 .foundation-item {
     text-align: center;
     padding: 25px;
-    width: 250px;
+    width: 180px;
     height: 500px;
     background-color: rgb(163, 153, 153);
 }
@@ -163,6 +163,7 @@ Day and weekly passes* {
 .section-4 {
     height: 100vh;
     background-color: #f5f5f5;
+    margin-bottom: 1vh;
 }
 
 .section-4 h1 {
@@ -194,4 +195,53 @@ Day and weekly passes* {
     background-color: blue;
     color: white;
     border-radius: 30px;
+}
+
+
+/* design section 5 */
+
+.section-5 {
+    padding-top: 30px;
+    height: 83vh;
+    background-color: #f5f5f5;
+}
+
+.download-app-section {
+    position: relative;
+    top: 25px;
+}
+
+.download-app-section h1 {
+    position: absolute;
+    right: 20px;
+    bottom: 100px;
+    ;
+}
+
+.app-icon-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.app-icon-button-container img {
+    width: 130px;
+    margin-bottom: 50px;
+}
+
+.image-s5 {
+    margin-top: 30px;
+    height: 60vh;
+    width: 100vw;
+}
+
+
+/* Design section 5 */
+
+.section-6 {
+    height: 100vh;
+    background: url(/images/background-section-6.png);
+}
+
+.section-6 h1 {
+    text-align: center;
 }
